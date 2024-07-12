@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="container">
+          <div class="header">
+            <h1>Bank Rating Form</h1>
+            <div>
+              <img src="data:image/jpeg;base64,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6XGVfS9Znk4fOsxHYyqJcUdaNwAaHXvf5txAsLfVdTjZF7xkWaw/a35uzcrjIEyBZ0t+rFq/ioixck5cm24H2tm12Udi4kxdzXvaW3AcAOz8SrjKELAmlsf6Nq54pnY2f2LbRvdvH4b9q9qfFszg3IdrnNBvs+UXP8lZ9GFwYhcG20Xt5X3ppf8AVm1ccVUGKm4DgDmcRs2Fvl5lJMas4jIftBu02O7utv8AJW2QLgxC4Nto2jySa3x8SkWr9wqNdnLmyG2z9bvdbu8igxhw3sO87uy1z+TSrjIFzlCml/6Xav8AKnlxV1oiGiz75he/bbYV5uxwltww7gd9/wBaxA2dwO1XeQIGBJpf+jav4rZMRsXDZsEZA7SHb/u814a4cdzLG43m+y9uwb1c5Aucqs0t+pFq/ippcWL3saG2zF17m+6+78FzNjQa8tLfIHMNpBsd+4ferTIEEQ7h+C1Ssx2cpaYnkKYaRM2XY8bQHXAFtlz9V3ix5jjlDXXuRt2DYCb3/wBP81b9GO5MgW2VG3SRmW5Y6+XMQBewvb/7Z2q2o6kSNzDvIXsGDu/JGsA3IOyxOmvXt9FvuctssTpr17fRb7nK16zfjVYT1EPox+0KYoeE9RD6MftCmKLAuCFyiK8ooGt2NAAuTsFt67CMXJttNr+a7opEYBERUEREBERAREQEREBcLlEBERAREQEREBERAREQEREBYnTXr2+i33OW2WJ0169vot9zla9ZvxqsJ6iH0Y/aFMUPCeoh9GP2hTFFgRERRERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAWJ0169vot9zltlidNevb6Lfc5WvWb8arCeoh9GP2hTFDwnqIfRj9oUxRYEREUREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQFidNevb6Lfc5bZYnTXr2+i33OVr1m/GqwnqIfRj9oUxQ8J6iH0Y/aFMUWBERFEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBYnTXr2+i33OW2WJ0169vot9zla9ZvxoMLxKHoYh00fUxg/2rP2R5qXrODxouKzmiLU1+WYuazg8aLis5prODxouKzmiJqbms4PGi4rOaazg8aLis5oiam5rODxouKzmms4PGi4rOaImpuazg8aLis5prODxouKzmiJqbms4PGi4rOaazg8aLis5oiam5rODxouKzmms4PGi4rOaImpuazg8aLis5prODxouKzmiJqbms4PGi4rOaazg8aLis5oiam5rODxouKzmms4PGi4rOaImpuazg8aLis5prODxouKzmiJqbms4PGi4rOaazg8aLis5oiam5rODxouKzmms4PGi4rOaImpuazg8aLis5prODxouKzmiJqbms4PGi4rOaazg8aLis5oiam5rODxouKzmsdphVxumaWvYR0TRse0/rO7iiLVKZlm1/h//2Q==" alt="Great Bank Logo" />
+            </div>
+          </div>
+          <div class="form-container">
+            <div class="form-group">
+              <label for="companyName">Company Name</label>
+              <input type="text" id="companyName" class="large-input" />
+            </div>
+            <div class="form-group">
+              <label for="financialInstitutionName"
+                >Financial Institution Name</label
+              >
+              <input
+                type="text"
+                id="financialInstitutionName"
+                class="large-input" />
+            </div>
+            <div class="form-group">
+              <label for="contactPerson">Company Institution Contact Person</label>
+              <input type="text" id="contactPerson" class="small-input" />
+              <input type="text" class="small-input" />
+            </div>
+            <div class="form-group">
+              <label for="financialInstitutionName2"
+                >Financial Institution Name</label
+              >
+              <input
+                type="text"
+                id="financialInstitutionName2"
+                class="large-input" />
+            </div>
+            <div class="form-group">
+              <label for="contactPhoneNumber">Contact Phone Number</label>
+              <input type="text" id="contactPhoneNumber" class="large-input" />
+            </div>
+            <div class="form-group">
+              <label for="accountHolderName">Name of Account Holder</label>
+              <input type="text" id="accountHolderName" class="small-input" />
+              <input type="text" class="small-input" />
+            </div>
+            <div class="form-group">
+              <label for="dateAccountOpened">Date Account Opened</label>
+              <input type="text" id="dateAccountOpened" class="small-input" />
+              <input type="text" class="small-input" />
+              <input type="text" class="small-input" />
+            </div>
+            <div class="form-group">
+              <label for="accountType">Account Type</label>
+              <input type="text" id="accountType" class="large-input" />
+            </div>
+            <div class="form-group">
+              <label for="balance">Balance</label>
+              <input type="text" id="balance" class="large-input" />
+            </div>
+            <div class="form-group">
+              <label for="additionalInfo">Additional Information</label>
+              <textarea id="additionalInfo"></textarea>
+            </div>
+          </div>
+          <div class="footer">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </body>
+    </html>
+</body>
+</html>
